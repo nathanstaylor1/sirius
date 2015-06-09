@@ -1,0 +1,154 @@
+/*_-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-_
+
+						COLOR INDEX
+
+/*_-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-_
+
+# /*
+# white: #fafafa;
+# black: #333333;
+# 
+# 
+# 
+# 
+# # */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+/*_-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-_
+
+						GENERAL SELECTORS
+
+/*_-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-_*/
+
+body {
+	background-color: #EFEFED;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  padding-top: 10px;
+  background-color: #EFEFED;
+  text-align: center;
+  font-family: "Gill Sans";
+}
+
+/*_-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-_
+
+						ID
+
+/*_-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-_*/
+
+#navbarlogo {
+	display: inline-block;
+	position: absolute;
+	top: 0px;
+}
+
+
+/*_-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-_
+
+						CLASS
+
+/*_-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-__-+=+-__-^-_*/
+
+.navbar-default {
+	background-color: #EFEFED;
+	border-color: #EFEFED;
+	border-radius: 0px;
+	z-index: 1;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-nav > li > a , .dropdown-menu > li > a{
+	color: #0B257A;
+	font-family: "Gill Sans";
+	font-variant: small-caps;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-nav > li > a:hover {
+	color: #F33F3F;
+}
+
+.glyphicon-magnet {
+	color: #F33F3F;
+}
+
+.container{
+	opacity: 0.90;
+	color: #0B257A;
+}
+
+.jumbotron {
+	background-color: #EFEFED;
+	color: #0B257A;
+	font-family: "Gill Sans";
+}
+
+.jumbotron > h1 {
+	font-variant: small-caps;
+}
+
+.container .jumbotron, .panel {
+	border-radius: 0px;
+}
+
+.panel {
+ background-color: #EFEFED;
+}
+
+.stars p {
+	font-size: 0em;
+	line-height: 10px;
+	position: absolute;
+	color: white;
+	width: 10px;
+	text-align: center;
+}
+
+.navbar-brand > p , .navbar-brand > img {
+	display: inline-block;
+}
+
+.navbar-brand > p {
+	margin-left: 60px;
+	font-size: 1.5em;
+}
+
+div.modal div.modal-backdrop {
+    z-index: 3;
+}
+
+.sky{
+	z-index: -1;
+	position: fixed;
+	width: 1280px;
+	height: 760px;
+	top:0px;
+	left: 0px;
+	background: -webkit-linear-gradient(#0B257A, #705157); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0B257A, #705157); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0B257A, #705157); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#0B257A, #705157); /* Standard syntax */
+}

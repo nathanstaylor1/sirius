@@ -1,0 +1,35 @@
+idea:
+themes:
+colors: purple
+night sky theme
+business feel
+
+comination of:
+http://www.luminalifedesign.com/#find
+http://www.nousgroup.com/au/
+
+3 flow landing page: (home)
+	-individual (make it personal about the person)
+	-work environment
+	-boards
+
+about
+	- bio
+
+services
+	-idividual
+	-companies
+	-boards
+
+resources
+	-articles
+	-toolkits
+	-whitepapers
+	
+contact:
+	-simple eamil/name/comment etc.
+	-site map in footer
+
+"lets see..." ideas:
+	-stars sparkle
+	
